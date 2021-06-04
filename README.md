@@ -12,6 +12,8 @@ Then navigate to localhost:3000
 ## Notes: 
 Color data is logged to the console. 
 
+Color data can also be found in the output folder in the file `data.json`
+
 The color indexes are mapped to the following array:
 
 ```
