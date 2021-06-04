@@ -38,6 +38,7 @@ let img;
 function preload() {
   img = loadImage('./data/hires_warp.png');
 }
+
 const data = []
 function setup() {
   createCanvas(128*5, 80*5);
