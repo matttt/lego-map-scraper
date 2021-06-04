@@ -54,7 +54,7 @@ function setup() {
       // sample 8x8 pixel grids
       for (let xOff = 0; xOff < 8; xOff++) {
         for (let yOff = 0; yOff < 8; yOff++) {
-          // those decimal offsets are because the cells in the image 
+          // those decimal offsets (ex: 18.06) are because the cells in the image 
           // are 18x18 pixels but every once in a while theres an extra pixel. 
           // probably bc of some lens distortion. I figured out those 
           // offsets by creating a debug view that cycled through cells, rendering 
